@@ -14,6 +14,7 @@
     ~/.bash: bash
     ~/.zsh: zsh
     ~/.zshrc: zshrc
+    ~/.config/nvim: config/nvim
 
 - create:
     - ~/projetos
