@@ -6,5 +6,12 @@
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
+    ~/.shell: shell
+    ~/.bash: bash
+    ~/.zsh: zsh
+    ~/.zshrc: zshrc
+    ~/.config/nvim: config/nvim
 
+- create:
+    - ~/projetos
 
