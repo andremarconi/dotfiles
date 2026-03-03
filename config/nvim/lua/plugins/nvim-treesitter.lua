@@ -21,7 +21,6 @@ return {
 			"prisma",
 			"markdown",
 			"markdown_inline",
-			"svelte",
 			"graphql",
 			"bash",
 			"lua",
