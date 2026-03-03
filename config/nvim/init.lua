@@ -63,4 +63,3 @@ vim.o.confirm = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 require("config.lazy")
-
