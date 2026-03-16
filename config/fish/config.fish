@@ -32,7 +32,7 @@ abbr -a h      'history'
 abbr -a path 'printf "%s\n" $PATH'
 
 # zoxide path
-zoxide init fish | source
+zoxide init fish --cmd cd | source
 
 end
 

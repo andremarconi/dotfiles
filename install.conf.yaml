@@ -14,8 +14,9 @@
     ~/.bash: bash
     ~/.zsh: zsh
     ~/.zshrc: zshrc
-    ~/.config/nvim: config/nvim
+#    ~/.config/nvim: config/nvim
     ~/.config/fish/config.fish: config/fish/config.fish
+    ~/.config/alacritty: config/alacritty
 
 - create:
     - ~/projetos
