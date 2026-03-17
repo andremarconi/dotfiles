@@ -34,5 +34,15 @@ abbr -a path 'printf "%s\n" $PATH'
 # zoxide path
 zoxide init fish --cmd cd | source
 
+switch $TERM
+		case 'linux'
+			:
+		case '*'
+			if ! set -q TMUX
+				# ensure that the new tmux _also_ starts fish
+				exec tmux set-option -g default-shell (which fish) ';' new-session
+			end
+	end
+
 end
 
